@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Chat</title>
+  </head>
+  <body>
+    <div class="chat w-[1000px] mx-auto flex justify-between">
+      <div class="w-[45%] mt-10">
+        <div
+          class="snap-y eshmat-window rounded-[20px] flex-col h-[500px] overflow-y-scroll justify-end flex w-full border border-[gray] p-4"
+        ></div>
+        <form
+          action=""
+          class="eshmat-form border rounded-[20px] p-4 border-[gray] mt-5 flex justify-between"
+        >
+          <input
+            type="text"
+            placeholder="Write a message ..."
+            class="p-3 w-full outline-none"
+          />
+          <button
+            type="submit"
+            class="p-3 bg-blue-600 text-white w-[100px] rounded-[5px]"
+          >
+            Send
+          </button>
+        </form>
+      </div>
+      <div class="w-[45%] mt-10">
+        <div
+          class="toshmat-window rounded-[20px] flex-shrink-0 overflow-y-scroll h-[500px] max-h-[501px] flex justify-end flex-col w-full border border-[gray] p-4"
+        ></div>
+        <form
+          action=""
+          class="toshmat-form border rounded-[20px] p-4 border-[gray] mt-5 flex justify-between"
+        >
+          <input
+            type="text"
+            placeholder="Write a message ..."
+            class="p-3 w-full outline-none"
+          />
+          <button class="p-3 bg-blue-600 text-white w-[100px] rounded-[5px]">
+            Send
+          </button>
+        </form>
+      </div>
+    </div>
+
+   
+    <script src="js/app.js"></script>
+  </body>
+</html>

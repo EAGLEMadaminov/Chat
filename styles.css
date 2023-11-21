@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1 eshmat tommonni dizaynini qilish
+2 toshmat tomonni dizaynini qilish
+3 js orqali eshmat tomonga yozub qo'shish
+4 js orqali eshmat yozuvini toshmat tomonga chiqarish
+5 js orqalitoshmat tomonga yozuv chiqarish
+6 js orqali toshmat yozuvini eshmat tomonga chiqarish
+7 eshmat yozuvini localstoragega qo'shish
+8  toshmat yozuvini localstoragega qo'shish */
+.eshmat,
+.toshmat {
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.eshmat-window .eshmat {
+  background: #2b5278;
+  width: 50%;
+  margin-left: auto;
+}
+
+.eshmat-window .toshmat {
+  background: #182533;
+  max-width: 70%;
+}
+.toshmat-window .toshmat {
+  margin-left: auto;
+  background: #2b5278;
+  width: 50%;
+}
+.toshmat-window .eshmat {
+  background: #182533;
+  max-width: 70%;
+}
+
+span {
+  font-size: 12px;
+}
